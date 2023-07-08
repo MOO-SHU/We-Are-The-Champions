@@ -44,12 +44,15 @@ textarea::placeholder {
     display: flex;
     flex-wrap: wrap;
 }
+
+
 .endorsement-input {
     height: 100px;
     width: 100%;
     resize: none;
     padding: 10px 15px;
     background-color: #444059;
+    color: #fff;
     border: none;
     border-radius: 8px;
     outline: none;
@@ -70,3 +73,17 @@ textarea::placeholder {
     font-weight: 700;
 }
 
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 15px 0px;
+    margin: 5px auto;
+    text-align: center;
+}
